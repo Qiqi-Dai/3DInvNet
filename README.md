@@ -1,5 +1,5 @@
 # 3DInvNet
-Commands for training Inverter: \
+1. Commands for training Inverter: \
 python workspace/trainInvNet.py \
 --model InvNetModel_ff \
 --lossfc MAE_loss \
