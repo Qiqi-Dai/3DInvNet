@@ -25,10 +25,10 @@ def main():
 	parser.add_argument('--id', type=str, default="test", help='The name for saving outputs')
 	parser.add_argument('--pretrain', type=str, default="test", help='The name of thr pre-trained model')
 
-	parser.add_argument('--train_data_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/dataset_real/train/data",   help='Train Data path')
-	parser.add_argument('--train_mask_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/dataset_real/train/mask",   help='Train Mask path')
-	parser.add_argument('--test_data_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/dataset_real/test/data",   help='Test Data path')
-	parser.add_argument('--test_mask_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/dataset_real/test/mask",   help='Test Mask path')
+	parser.add_argument('--train_data_path', type=str, default="dataset_real/train/data",   help='Train Data path')
+	parser.add_argument('--train_mask_path', type=str, default="dataset_real/train/mask",   help='Train Mask path')
+	parser.add_argument('--test_data_path', type=str, default="dataset_real/test/data",   help='Test Data path')
+	parser.add_argument('--test_mask_path', type=str, default="dataset_real/test/mask",   help='Test Mask path')
 
 	# Model save path and visualization result path
 	parser.add_argument('--model_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/workspace/exp/model/",   help='Model save path load model path')
