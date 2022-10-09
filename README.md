@@ -12,6 +12,6 @@ python workspace/trainInvNet.py \
 --train_mask_path dataset/train/mask2 \
 --test_data_path dataset/test/mask1 \
 --test_mask_path dataset/test/mask2 \
---model_path workspace/exp/model/ \
---visualization_path workspace/exp/visual/ \
+--model_path workspace_Inverter/exp/model/ \
+--visualization_path workspace_Inverter/exp/visual/ \
 --save_model
