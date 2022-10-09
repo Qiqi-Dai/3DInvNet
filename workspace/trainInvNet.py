@@ -15,7 +15,7 @@ def main():
 
 	# Training related parameters setting
 	parser.add_argument('--model', type=str, default="InvNetModel", help='The network structure')
-	parser.add_argument('--lossfc', type=str, default="MSE_loss", help='The lossfunction')
+	parser.add_argument('--lossfc', type=str, default="MAE_loss", help='The lossfunction')
 	parser.add_argument('--batch_size', type=int, default=30, help='Select {} videos as one batch')
 	parser.add_argument('--lr', type=float, default=0.001, help='Learning rate')
 	parser.add_argument('--lr_decay', type=float, default=0.99, help='Learning rate decay rate')
@@ -25,14 +25,14 @@ def main():
 	parser.add_argument('--id', type=str, default="test", help='The name for saving outputs')
 	parser.add_argument('--pretrain', type=str, default="test", help='The name of thr pre-trained model')
 
-	parser.add_argument('--train_data_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/dataset_real/train/data",   help='Train Data path')
-	parser.add_argument('--train_mask_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/dataset_real/train/mask",   help='Train Mask path')
-	parser.add_argument('--test_data_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/dataset_real/test/data",   help='Test Data path')
-	parser.add_argument('--test_mask_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/dataset_real/test/mask",   help='Test Mask path')
+	parser.add_argument('--train_data_path', type=str, default="dataset/train/data",   help='Train Data path')
+	parser.add_argument('--train_mask_path', type=str, default="dataset/train/mask",   help='Train Mask path')
+	parser.add_argument('--test_data_path', type=str, default="dataset/test/data",   help='Test Data path')
+	parser.add_argument('--test_mask_path', type=str, default="dataset/test/mask",   help='Test Mask path')
 
 	# Model save path and visualization result path
-	parser.add_argument('--model_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/workspace/exp/model/",   help='Model save path load model path')
-	parser.add_argument('--visualization_path', type=str, default="/home/ruijie/qqworkspace/3DInvNet/workspace/exp/visual/",   help='Output Visualization Path')
+	parser.add_argument('--model_path', type=str, default="workspace/exp/model/",   help='Model save path load model path')
+	parser.add_argument('--visualization_path', type=str, default="workspace/exp/visual/",   help='Output Visualization Path')
 	
 	# Mode setting 
 	parser.add_argument('--eval', dest='eval', action='store_true', help='Eval only')
