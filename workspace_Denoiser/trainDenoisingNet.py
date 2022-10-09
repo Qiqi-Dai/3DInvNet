@@ -96,8 +96,6 @@ def main():
 			s.visualization(data = args.test_data_path, path = args.visualization_path, **vars(args))
 
 		if it >= args.max_epoch or max(clr) == 0:
-			sio.savemat(args.visualization_path + '/loss_set.mat', {'loss_set': loss_set})
-			sio.savemat(args.visualization_path + '/val_loss_set.mat', {'val_loss_set': val_loss_set})
 			quit()
 
 		it += 1
