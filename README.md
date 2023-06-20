@@ -34,4 +34,5 @@ python workspace_Denoiser/trainDenoisingNet.py \
 --visualization_path workspace_Denoiser/exp/visual/ \
 --save_model
 
-3. The dataset is uploading. If any issues pls contact DAIQ0004@e.ntu.edu.sg.
+3. The simulated and real measured datasets can be found at https://drive.google.com/drive/folders/12mG7lA8g8KX55KPHmP9y3n4XxFZjLp4W?usp=sharing.
+4. If any issues pls contact DAIQ0004@e.ntu.edu.sg.
