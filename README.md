@@ -1,6 +1,7 @@
 # 3DInvNet
-Implementation codes for the paper "3DInvNet: A Deep Learning-Based 3D Ground-Penetrating Radar Data Inversion" 
-1. Commands for training Inverter: \
+Implementation codes and datasets for the paper "3DInvNet: A Deep Learning-Based 3D Ground-Penetrating Radar Data Inversion" 
+1. The simulated and real measured datasets can be found at https://drive.google.com/drive/folders/12mG7lA8g8KX55KPHmP9y3n4XxFZjLp4W?usp=sharing.
+2. Commands for training Inverter: \
 python workspace_Inverter/trainInvNet.py \
 --model InvNetModel_ff \
 --lossfc MAE_loss \
@@ -17,7 +18,7 @@ python workspace_Inverter/trainInvNet.py \
 --visualization_path workspace_Inverter/exp/visual/ \
 --save_model
 
-2. Commands for training Denoiser: \
+3. Commands for training Denoiser: \
 python workspace_Denoiser/trainDenoisingNet.py \
 --model DenoisingNetModel \
 --lossfc MSE_loss \
@@ -34,5 +35,4 @@ python workspace_Denoiser/trainDenoisingNet.py \
 --visualization_path workspace_Denoiser/exp/visual/ \
 --save_model
 
-3. The simulated and real measured datasets can be found at https://drive.google.com/drive/folders/12mG7lA8g8KX55KPHmP9y3n4XxFZjLp4W?usp=sharing.
 4. If any issues pls contact DAIQ0004@e.ntu.edu.sg.
