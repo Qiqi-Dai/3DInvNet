@@ -1,5 +1,5 @@
 # 3DInvNet
-Implementation codes and datasets for the paper "3DInvNet: A Deep Learning-Based 3D Ground-Penetrating Radar Data Inversion" at http://dx.doi.org/10.1109/TGRS.2023.3275306. 
+Implementation codes and datasets for the paper "3DInvNet: A Deep Learning-Based 3D Ground-Penetrating Radar Data Inversion" at  http://dx.doi.org/10.1109/TGRS.2023.3275306. 
 1. The simulated and real measured datasets can be found at https://drive.google.com/drive/folders/12mG7lA8g8KX55KPHmP9y3n4XxFZjLp4W?usp=sharing.
 2. Commands for training Inverter: \
 python workspace_Inverter/trainInvNet.py \
