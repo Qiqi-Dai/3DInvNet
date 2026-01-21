@@ -35,4 +35,4 @@ python workspace_Denoiser/trainDenoisingNet.py \
 --visualization_path workspace_Denoiser/exp/visual/ \
 --save_model
 
-4. If any issues pls contact DAIQ0004@e.ntu.edu.sg.
+4. If any problems, pls release them in Issues
