@@ -35,4 +35,4 @@ python workspace_Denoiser/trainDenoisingNet.py \
 --visualization_path workspace_Denoiser/exp/visual/ \
 --save_model
 
-4. If any problems, pls release them in Issues
+4. If any problems, pls release them in Issues.
